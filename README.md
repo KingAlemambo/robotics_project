@@ -41,11 +41,11 @@ The robot alternates between rooms A and B, navigates each for 30 seconds, and p
 
 ##  Key Features
 
-- ✅ **SMACH State Machine** with concurrent YOLO and Navigation states
-- ✅ **YOLO detection service** with object filtering and coordinate extraction
-- ✅ **ROS Actionlib server** with structured feedback (`robot position` and `rule ID`)
-- ✅ **Speech publishing** for rule-breaking announcements
-- ✅ **Launch file and parameterization** (`nchecks`, `vid_folder`)
+- **SMACH State Machine** with concurrent YOLO and Navigation states
+-  **YOLO detection service** with object filtering and coordinate extraction
+-  **ROS Actionlib server** with structured feedback (`robot position` and `rule ID`)
+-  **Speech publishing** for rule-breaking announcements
+-  **Launch file and parameterization** (`nchecks`, `vid_folder`)
 
 ---
 
