@@ -47,20 +47,4 @@ The robot alternates between rooms A and B, navigates each for 30 seconds, and p
 -  **Speech publishing** for rule-breaking announcements
 -  **Launch file and parameterization** (`nchecks`, `vid_folder`)
 
----
-
-## File Structure
-
-robot-behavior-smach-yolo/
-├── move_robot_server.py # Room navigation service (ROS)
-├── move_robot_service_client.py # Service client (test script)
-├── setroom.py # Set initial room position
-├── Robot_Behavior_Server.py # Main actionlib + SMACH controller
-├── Go_To_RoomState.py # SMACH state to invoke movement
-├── Navigate_In_Room_State.py # State for patrolling inside a room
-├── Decide_Next_Room_State.py # Chooses next room / terminates
-├── Yolo_Detection_State.py # Concurrent SMACH state using YOLO
-├── yolo_detection.py # Runs YOLOv4 ROS service
-├── itr_cw.launch # Launch file to start all components
-
 
